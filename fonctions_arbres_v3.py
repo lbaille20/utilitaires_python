@@ -166,6 +166,13 @@ def affiche_arbre(a, prof = 0, no = 1, d = 1, dv = 2,
     plt.axis('off')
     plt.show()
 
+## aliases
+aff = lambda a: affiche_arbre(a)
+aff1 = lambda a: affiche_arbre(a, decoration = False, show_empty = True)
+aff2 = lambda a: affiche_arbre(a, show_empty = True)
+
+
+
 ## importations nécessaires
 import matplotlib.pyplot as plt
 import numpy as np
